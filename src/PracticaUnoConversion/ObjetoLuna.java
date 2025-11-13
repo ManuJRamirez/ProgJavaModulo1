@@ -19,7 +19,7 @@ public class ObjetoLuna {
 		System.out.println("Introduzca un peso en la Tierra: \nNOTA: Si introduce un decimal, hazlo separandolo por coma, no por punto.");
 		pesoDadoEnTierra = datoIntroducido.nextDouble();
 		}  while (pesoDadoEnTierra <= 0);
-		pesoEnLuna = pesoDadoEnTierra * Constantes.relacionPorcentajeTierraLuna;
+		pesoEnLuna = pesoDadoEnTierra * Constantes.RELACIONPORCENTAJETIERRALUNA;
 		System.out.println(stringbBuilderResultadoPesoLuna());
 		datoIntroducido.close(); // Cerramos el escaner.
 	}
