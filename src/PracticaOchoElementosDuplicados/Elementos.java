@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 
-
 public class Elementos {
 	/* Se crea un arrayList para ir añadiendo los valores de "arrayDePrueba" que no esten repetidos.*/
 	 public static void comprobarElementosDuplicados() {
